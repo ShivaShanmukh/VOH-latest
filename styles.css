@@ -464,15 +464,15 @@ section.sessions .section-title {
 }
 
 .hero-title {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(4rem, 10vw, 100px);
   font-weight: 400;
   color: #374151;
-  line-height: 1.2;
+  line-height: 0.95;
   margin: 0;
-  letter-spacing: normal;
-  word-spacing: normal;
+  letter-spacing: 0.01em;
   text-align: left;
+  display: block;
 }
 
 .hero-title .letter-b1 {
@@ -543,11 +543,13 @@ section.sessions .section-title {
   color: #FA26A2;
 }
 
-/* Hero title letter spacing */
+/* Hero title letter spacing - ensure proper rendering */
 .hero-title span {
   display: inline;
-  margin: 0;
-  padding: 0;
+}
+
+.hero-title br {
+  line-height: 0.95;
 }
 
 /* Cyan */
@@ -644,7 +646,7 @@ section.sessions .section-title {
 
   .hero-title {
     font-size: clamp(2.5rem, 8vw, 4rem);
-    line-height: 1;
+    line-height: 0.95;
     margin: 1rem 0;
   }
 
