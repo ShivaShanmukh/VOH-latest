@@ -468,8 +468,10 @@ section.sessions .section-title {
   font-size: clamp(4rem, 10vw, 100px);
   font-weight: 400;
   color: #374151;
-  line-height: 0.9;
+  line-height: 1.1;
   margin: 0;
+  letter-spacing: 0.02em;
+  word-spacing: 0.1em;
 }
 
 .hero-title .letter-b1 {
@@ -538,6 +540,11 @@ section.sessions .section-title {
 
 .hero-title .letter-o2 {
   color: #FA26A2;
+}
+
+/* Hero title letter spacing */
+.hero-title span {
+  display: inline-block;
 }
 
 /* Cyan */
