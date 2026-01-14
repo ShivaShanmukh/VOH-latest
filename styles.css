@@ -70,11 +70,7 @@ h6,
 .enrollment-title,
 .benefits-subtitle,
 .course-title,
-.hero-title {
-  font-family: 'MyType', 'Bebas Neue', 'Lato';
-  font-weight: 400;
-  letter-spacing: 0.05em;
-}
+/* Removed old hero-title - using hero-title-wrapper and hero-title-line instead */
 
 /* Ensure Lato for all descriptions */
 p,
@@ -473,10 +469,11 @@ section.sessions .section-title {
   font-size: clamp(4rem, 10vw, 100px);
   font-weight: 400;
   color: #374151;
-  line-height: 1;
+  line-height: 0.85;
   margin: 0;
   padding: 0;
   text-align: left;
+  letter-spacing: 0.02em;
 }
 
 /* Hero title letter colors */
