@@ -548,6 +548,13 @@ section.sessions .section-title {
   display: inline;
 }
 
+/* Hero title line wrappers - each line displays as a block */
+.hero-title .word-line-1,
+.hero-title .word-line-2,
+.hero-title .word-line-3 {
+  display: block;
+}
+
 .hero-title br {
   line-height: 0.95;
 }
