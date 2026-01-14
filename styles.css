@@ -463,100 +463,38 @@ section.sessions .section-title {
   margin-bottom: 0;
 }
 
-.hero-title {
+.hero-title-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-title-line {
   font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(4rem, 10vw, 100px);
   font-weight: 400;
   color: #374151;
-  line-height: 0.95;
+  line-height: 1;
   margin: 0;
-  letter-spacing: 0.01em;
+  padding: 0;
   text-align: left;
-  display: block;
 }
 
-.hero-title .letter-b1 {
-  color: #3BA1E1;
+/* Hero title letter colors */
+.letter-b1, .letter-o1, .letter-a1, .letter-e3, .letter-h, .letter-r2 {
+  color: #3BA1E1; /* Blue */
 }
 
-.hero-title .letter-e1 {
-  color: #74FD2C;
+.letter-e1, .letter-m, .letter-r, .letter-t, .letter-e4 {
+  color: #74FD2C; /* Green */
 }
 
-.hero-title .letter-c {
-  color: #FA26A2;
+.letter-c, .letter-e2, .letter-b2, .letter-a2, .letter-h2, .letter-o2 {
+  color: #FA26A2; /* Pink */
 }
 
-.hero-title .letter-o1 {
-  color: #3BA1E1;
-}
-
-.hero-title .letter-m {
-  color: #74FD2C;
-}
-
-.hero-title .letter-e2 {
-  color: #FA26A2;
-}
-
-.hero-title .letter-a1 {
-  color: #3BA1E1;
-}
-
-.hero-title .letter-b2 {
-  color: #FA26A2;
-}
-
-.hero-title .letter-r {
-  color: #74FD2C;
-}
-
-.hero-title .letter-e3 {
-  color: #3BA1E1;
-}
-
-.hero-title .letter-a2 {
-  color: #FA26A2;
-}
-
-.hero-title .letter-t {
-  color: #74FD2C;
-}
-
-.hero-title .letter-h {
-  color: #3BA1E1;
-}
-
-.hero-title .letter-h2 {
-  color: #FA26A2;
-}
-
-.hero-title .letter-e4 {
-  color: #74FD2C;
-}
-
-.hero-title .letter-r2 {
-  color: #3BA1E1;
-}
-
-.hero-title .letter-o2 {
-  color: #FA26A2;
-}
-
-/* Hero title letter spacing - ensure proper rendering */
-.hero-title span {
+/* Hero title line letter spacing */
+.hero-title-line span {
   display: inline;
-}
-
-/* Hero title line wrappers - each line displays as a block */
-.hero-title .word-line-1,
-.hero-title .word-line-2,
-.hero-title .word-line-3 {
-  display: block;
-}
-
-.hero-title br {
-  line-height: 0.95;
 }
 
 /* Cyan */
@@ -651,10 +589,10 @@ section.sessions .section-title {
     margin-bottom: 1rem;
   }
 
-  .hero-title {
+  .hero-title-line {
     font-size: clamp(2.5rem, 8vw, 4rem);
-    line-height: 0.95;
-    margin: 1rem 0;
+    line-height: 1;
+    margin: 0;
   }
 
   .btn-exercises {
@@ -688,9 +626,9 @@ section.sessions .section-title {
     width: clamp(180px, 70vw, 250px);
   }
 
-  .hero-title {
+  .hero-title-line {
     font-size: clamp(2rem, 10vw, 3rem);
-    line-height: 0.95;
+    line-height: 1;
   }
 
   .btn-exercises {
